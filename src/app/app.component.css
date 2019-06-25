@@ -1,0 +1,56 @@
+.ToDo{
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    border: 5px solid blue;
+    font-family:sans-serif;
+    border-bottom: 0px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color:red;
+    padding: 25px 0px;
+    margin-top: 0px;
+}
+
+.addItem{
+padding-bottom: 3px;
+padding-top: 0px;
+position: relative;
+height: 30px;  
+}
+.addTask{
+width : 80%;
+height: 25px;
+padding: 5px;
+font-size: 20px;
+}
+.addItem button{
+    height: 28px;
+    width: 50px;    
+    padding: 3px;
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    color:white;
+    margin-left: -40px;
+    margin-bottom: 0px;
+}
+li{
+    border: 2px solid blue;
+    background-color: red;
+    padding:10px 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+span
+{
+    cursor: pointer;
+    position: relative;
+    float:right;
+    margin-right: 10px;
+}

@@ -1,0 +1,17 @@
+<div class="ToDo">
+<h1>ToDo Application</h1>
+<div class="addItem">
+<input [(ngModel)]="newItem" placeholder="Add your Task" class="addTask">
+<button (click) ="pushItem()">Add</button>
+</div>
+<ul>
+  <li *ngFor="let i of items ; let ind = index">  
+  
+      {{ i }}
+      <span (click) ="removeItem(ind)"> X </span>
+      <span>
+          <input type="checkbox" name="list" value={{i}}>
+      </span>
+  </li>
+</ul>
+</div>
